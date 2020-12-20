@@ -4,10 +4,10 @@ try:
 except ImportError:
     from distutils.core import setup
 
-version = '0.1.1'
+version = '1.0.0'
 
 setup(
-    name='pykml',
+    name='pykml1',
     version=version,
     packages=['pykml',],
     package_dir={'': 'src'},
@@ -24,7 +24,7 @@ setup(
         'lxml>=2.2.6',
     ],
     tests_require=['nose'],
-    description="Python KML library",
+    description="Python KML library with updates for Python 3",
     classifiers=[
         # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Programming Language :: Python',
@@ -41,7 +41,7 @@ setup(
     keywords='kml',
     author='Tyler Erickson',
     author_email='tylerickson@gmail.com',
-    url='http://pypi.python.org/pypi/pykml',
+    url='https://github.com/Baschdl/pykml/',
     license='BSD',
     long_description="""\
 =========
